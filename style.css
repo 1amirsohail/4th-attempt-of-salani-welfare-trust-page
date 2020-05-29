@@ -228,6 +228,22 @@ i {
 }
 
 
+..top-buttonnnn{
+    position: fixed;
+    right: 20px;
+    top: 400px;
+    border: none;
+    text-decoration: none;
+    box-decoration-break: none;
+    background-color: none;
+    
+}
+.top-button:focus:focus:active{
+    background-color: lightskyblue;
+}
+
+
+
 .hepatitis,.housing-society,.it-literacy,.tharparkar{
     margin-top: 20px;
 }
@@ -304,11 +320,31 @@ i {
     padding-top: 13px;
     
     
-    @media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
     .use-full-link {
-     margin-bottom: 20px;
+     margin-bottom: 60px;
      margin-top: 60px;
+    
     }
   }
+    
+      @media screen and (max-width: 650px) {
+        .jafdj {
+        padding-top: 60px;
+        
+        }
+      }
+    
+    .top-button{
+    position: fixed;
+    right: 20px;
+    top: 500px;
+    box-shadow: 0px 2px 10px grey;
+}
+.top-button:focus:focus:active{
+    background-color: lightskyblue;
+}
+
+        
 
  /* footer section end */
