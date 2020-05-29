@@ -192,16 +192,12 @@ i {
 
 @media screen and (max-width: 650px) {
     .st1-div,.nd2-div,.rd3-div,.th4-div,.th5-div,.th6-div {
-      width: 100%;
+      width: 90%;
     
     }
   }
 
-  @media screen and (min-width: 750px) {
-    .online-sadaka1,.Dastarkhawan,.medical1,.ro-plant1,.welfare1{
-      width: 100%;
-    }
-  }
+ 
 /* what we are doing section start */
 
 
