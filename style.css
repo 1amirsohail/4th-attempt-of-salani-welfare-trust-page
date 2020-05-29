@@ -335,7 +335,8 @@ i {
         }
       }
     
-  .top-buttonnnn{
+
+.top-buttonnnn{
     position: fixed;
     right: 20px;
     top: 400px;
@@ -348,22 +349,9 @@ i {
 .top-button:focus:focus:active{
     background-color: lightskyblue;
 }
-
         
     
-    .top-buttonnnn{
-    position: fixed;
-    right: 20px;
-    top: 400px;
-    border: none;
-    text-decoration: none;
-    box-decoration-break: none;
-    background-color: none;
-    
-}
-.top-button:focus:focus:active{
-    background-color: lightskyblue;
-}
+
 @media screen and (max-width: 650px) {
     .use-full-link {
      margin-bottom: 60px;
