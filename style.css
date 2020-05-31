@@ -114,12 +114,29 @@ i {
     padding-bottom: 100px;
 }
 
-@media screen and (max-width: 650px) {
-    .para-long {
-      padding: 2px 2px 70px 2px;
-    
-    }
+
+
+@media screen and (min-width: 750px) {
+    .para-long{
+      text-align: center;
+      color: grey;
+      line-height: 2;
+      text-align: center;
+      text-decoration: none;
+      padding-right: 120px;
+      width: 100%;
+
   }
+    }
+
+ 
+
+        @media screen and (max-width: 450px) {
+            .para-long {
+             padding: 2px 2px 70px 2px;
+            
+            }
+          }
 
 /* introduction section end */
 
@@ -199,12 +216,16 @@ i {
 
 @media screen and (max-width: 650px) {
     .st1-div,.nd2-div,.rd3-div,.th4-div,.th5-div,.th6-div {
-      width: 90%;
+    width: 90%;
     
     }
   }
 
- 
+  /* @media screen and (min-width: 750px) {
+    .online-sadaka1,.Dastarkhawan,.medical1,.ro-plant1,.welfare1{
+      width: 100%;
+    }
+  } */
 /* what we are doing section start */
 
 
@@ -226,22 +247,6 @@ i {
     border: 1px solid lightgrey !important;
 
 }
-
-
-..top-buttonnnn{
-    position: fixed;
-    right: 20px;
-    top: 400px;
-    border: none;
-    text-decoration: none;
-    box-decoration-break: none;
-    background-color: none;
-    
-}
-.top-button:focus:focus:active{
-    background-color: lightskyblue;
-}
-
 
 
 .hepatitis,.housing-society,.it-literacy,.tharparkar{
@@ -318,27 +323,7 @@ i {
 .copyright{
     font-size: 13px;
     padding-top: 13px;
-    
-    
-@media screen and (max-width: 650px) {
-    .use-full-link {
-     margin-bottom: 60px;
-     margin-top: 60px;
-    
-    }
-  }
-    
-      @media screen and (max-width: 650px) {
-        .jafdj {
-        padding-top: 60px;
-        
-        }
-      }
-    
-
-
-        
-    
+}
 
 @media screen and (max-width: 650px) {
     .use-full-link {
@@ -361,8 +346,8 @@ i {
         
         }
       }
-    
-         .top-buttonnnn{
+
+      .top-buttonnnn{
         position: fixed;
         right: 20px;
         top: 400px;
@@ -375,5 +360,5 @@ i {
     .top-button:focus:focus:active{
         background-color: lightskyblue;
     }
-
+      
  /* footer section end */
